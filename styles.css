@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #4a90e2;
+  }
+  
+  label, button {
+    font-size: 1.2em;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #357ab8;
+  }
+  
+  table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  #tableContainer {
+    margin-top: 20px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .chart-container {
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: none; /* Initially hide the chart text */
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  

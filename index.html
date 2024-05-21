@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sorting Algorithms Comparison</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorting Algorithms Comparison</h1>
+    <label for="maxLength">Enter max array length:</label>
+    <input type="number" id="maxLength" name="maxLength" min="3">
+    <button onclick="generateAndSort()">Generate and Sort</button>
+    <h2>Comparison Table</h2>
+    <div id="tableContainer"></div>
+    <h2>Comparison Chart</h2>
+    <div class="chart-container">
+      <div class="chart-text" id="chartText">
+        <span style="color:red;">&#9632;</span> Bubble Sort Operations
+        <span style="color:blue;">&#9632;</span> Quick Sort Operations
+      </div>
+      <canvas id="comparisonChart"></canvas>
+    </div>
+  </div>
+  
+  <script src="comparisonChart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
